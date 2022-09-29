@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="row">
+                    <div class="contact-left">
+                        <div class="header_text">
+                            <p>UI/UX Designer</p>
+                            <h1>Hi, I'm <span>Raunak</span><br> from India</h1>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <img src="images/Raunak3.jpg" alt="" srcset="">
+                    </div>
+                </div>   
+            </div>
+        </div>
+
+
+        <!-- --------------about----------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/Raunak2.jpg" alt="user image">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub_title">About Me</h1>
+                        <p>I help startup and business across India grow their business. I have been a creative and innovative software developer at 22 colleges and hostels including Nalanda Livings, GLBITM etc.
+                            I am the #1 Software developer and I believe that everyone has right to scale and grow their business with the help of my creative coding skill, I have helped a lots of startup to scale their business.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('exprience')">Exprience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>App Development</span><br>Building Android apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="exprience">
+                            <ul>
+                                <li><span>2022 - Current</span><br>Internship at Worktez.</li>
+                                <li><span>2021 - 2022</span><br>UX/UI designing at youtube</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021</span><br>B.Tech from GL Bajaj</li>
+                                <li><span>2019</span><br>Intermediate from V.S Central College</li>
+                                <li><span>2017</span><br>High School from V.S Central College</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+         
+        
+       
+
+        <!-- -------------------contact------------------------ -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub_title">Contact Me</h1>
+                        <p>Gmail: raunaksharma22345@gmail.com</p>
+                        <p>Mob no.: 6306326683</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/raunak-sharma-10a078244/">Linkedin:</i></a>
+                        </div>
+                        <a href="images/Raunak's Resume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet" action="">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }     
+        </script>
+       
+    </body>
+
+</html>
