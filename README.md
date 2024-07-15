@@ -13,47 +13,14 @@ This portfolio website is designed to showcase my skills, projects, and professi
 - **Contact Form**: A functional contact form that allows visitors to get in touch with me directly from the website.
 - **Blog Section**: A blog to share my thoughts, experiences, and insights on various topics.
 
-## SCREENSHOTS
-
-<table>
-  <tr>
-    <td style="text-align: center;">
-      <img src="path_to_image/homepage.jpg" alt="Home Page" width="200"/>
-      <p>Home Page</p>
-    </td>
-    <td style="text-align: center;">
-      <img src="path_to_image/about.jpg" alt="About Page" width="200"/>
-      <p>About Page</p>
-    </td>
-    <td style="text-align: center;">
-      <img src="path_to_image/projects.jpg" alt="Projects Page" width="200"/>
-      <p>Projects Page</p>
-    </td>
-    <td style="text-align: center;">
-      <img src="path_to_image/contact.jpg" alt="Contact Page" width="200"/>
-      <p>Contact Page</p>
-    </td>
-  </tr>
-</table>
-
 ## INSTALLATION
 
 To run this project locally, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your_username/portfolio-website.git
+    git clone [https://github.com/RaunakSharma002/Portfolio]
     cd portfolio-website
-    ```
-
-2. **Install dependencies:**
-    ```bash
-    npm install
-    ```
-
-3. **Start the development server:**
-    ```bash
-    npm start
     ```
 
 ## CONFIGURATION
@@ -64,9 +31,6 @@ To customize the content of the portfolio, update the data files located in the 
 
 - **HTML5 & CSS3**: For structuring and styling the website.
 - **JavaScript**: For adding interactivity and dynamic content.
-- **React**: A JavaScript library for building the user interface.
-- **Node.js & Express**: For the backend server and handling form submissions.
-- **EmailJS**: For sending emails from the contact form.
 
 ## CONTRIBUTING
 
@@ -78,7 +42,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## CONTACT
 
-If you have any questions or feedback, feel free to reach out to me at your_email@example.com.
+If you have any questions or feedback, feel free to reach out to me at raunaksharma22345@gmail.com
 
 ---
 
